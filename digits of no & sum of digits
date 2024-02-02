@@ -1,0 +1,36 @@
+// 5. Return sum of digits of a number ex: x = 123 output: 6 (1+2+3 = 6)
+function sumofDigits(num){
+    nstr = num.toString();
+    var c = 0;
+    for (var i=0;i<nstr.length;i++){
+        c = c + parseInt(nstr[i]);
+    }
+    return c;
+}
+
+console.log(sumofDigits(123));
+
+
+// 6. Return total number of factors of a number ex: x = 4 output: 3 (factors: 1,2,4)
+function printFactors(number) {
+    var factors = [];
+    var count=0
+for (i = 1; i <= number; i++) {
+        if (number % i === 0) {
+            factors.push(i);
+            count++
+        }
+    }
+    console.log('Factors of '+number)
+    console.log(factors);
+    console.log(count) 
+}
+printFactors(19);
+
+
+
+
+
+
+
+
