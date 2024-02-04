@@ -1,0 +1,6 @@
+//Qno:-9. Given a distance in miles convert it into kilometers
+function milesToKiloMeters(miles){
+    var kilometers = miles * 1.6093;
+    console.log(parseInt(kilometers));
+}
+milesToKiloMeters(5);
