@@ -1,0 +1,19 @@
+//Q.no:-7. Given a number written if is is a prime //output:ex:3(true) 4(false)
+function isprime(num){
+    if (num <= 1){
+        return false;
+    }
+    if (num === 2){
+        return true;
+    }
+    if (num % 2 === 0){
+        return false;
+    }
+    for (var i = 3; i<= Math.sqrt(num); i += 2){
+        if (num % i === 0){
+            return  false;
+         }
+    }
+    return true;
+}
+console.log(isprime(10));
