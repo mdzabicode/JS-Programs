@@ -13,3 +13,10 @@ for (i = 1; i <= number; i++) {
     console.log(count) 
 }
 printFactors(19);
+
+//Q.no:-8. given a number return its factorial ex: 3 output:6
+function factorial(n){
+    if (n == 0) return 1;
+    return n * factorial(n-1);
+}
+console.log(factorial(6));
