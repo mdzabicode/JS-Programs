@@ -1,0 +1,9 @@
+
+//Qno:-10. Given a temperature in Celsius convert it into fahrenheit
+function CelsiusToFahrenheit(Celsius){
+    var fahrenheit = Celsius * 1.8;
+    fahrenheit += 32; 
+    
+    console.log(fahrenheit);
+}
+CelsiusToFahrenheit(20);
